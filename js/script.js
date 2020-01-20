@@ -1,9 +1,14 @@
 $(document).ready(function() {
-$('.header-nav li').hover(function() {
-  $( this ).addClass( "" );
-  }, function() {
-    $( this ).removeClass( "" );
-  });
+$('.header-nav .dropdown-parent').hover(function() {
+    $('.dropdown').removeClass("display-none");
+   }
+   // function() {
+  //   $('.dropdown').addClass("display-none");
+  // }
+
+
+
+);
 
 
 
