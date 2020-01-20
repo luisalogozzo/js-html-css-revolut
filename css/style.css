@@ -43,7 +43,7 @@ display: inline;
   vertical-align: middle;
 }
 
-.left-nav  li {
+.left-nav li {
   padding-right: 2vw;
 }
 
@@ -52,8 +52,10 @@ display: inline;
 }
 
 .right-nav li {
+  display: block;
   padding: 0 1vw;
 }
+
 .right-nav > li:last-child a {
   color: white;
   border-radius: 2em;
@@ -76,7 +78,7 @@ display: inline;
   top: 140%;
   left: 50%;
   transform: translateX(-50%);
-  padding: 1.2vw 2.6vw;
+  padding: 1.2vw 1.6vw;
   box-shadow:1px 1px 7px rgba(0, 0, 0, 0.2);
 }
 
